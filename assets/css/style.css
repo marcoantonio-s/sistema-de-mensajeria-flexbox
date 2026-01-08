@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-family: "Open Sans", sans-serif;
+}
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    margin-top: 32px;
+    text-align: center;
+}
+body {
+    background-color: #F9F9F9;
+    display: flex;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 20%;
+    min-height: 100vh;
+    min-width: 280px;
+    border-right: 1px solid #E8EBE4;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+}
+.content img {
+    width: 300px;
+}
+.content p {
+    font-size: 16px;
+    text-align: center;
+    line-height: 24px;
+    margin-top: 4px; 
+}
+.contacto {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 16px;
+    align-items: center;
+    border-top: 1px solid #E8EBE4;
+    border-bottom: 1px solid #E8EBE4;
+    min-height: 80px;
+    background-color: white;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.contacto:hover {
+    background-color: #e3deef;
+    transition: all 0.2s ease-in-out;
+}
+.contacto h3 {
+    font-size: 16px;
+    font-weight: 500;
+}
+.contacto p {
+    font-size: 14px;
+    font-weight: 400;
+}
+.img-contacto img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    border: 2px solid #E8EBE4;
+    margin-left: 32px;
+}
+.nombre-contacto {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: start;
+    gap: 4px;
+}
+.perfil {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 26px;
+    align-items: center;
+    border-top: 1px solid #E8EBE4;
+    border-bottom: 1px solid #E8EBE4;
+    height: 80px;
+}
+.img-perfil img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: 2px solid #E8EBE4;
+}
+.nombre-perfil {
+    margin-left: -46px;
+}
+.perfil h3 {
+    font-size: 16px;
+    font-weight: 500;
+}
+.perfil p {
+    font-size: 12px;
+    font-weight: 400;
+    color: #959797;
+}
+.iconos-perfil {
+    color:#959797;
+    font-size: 20px;
+    display: flex;
+    gap: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.iconos-perfil:hover {
+    color:#A491D2;
+    transition: all 0.2s ease-in-out;
+}
+.new-chat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+}
+.boton {
+    background-color: #A491D2;
+    padding: 16px 50px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.boton:hover {
+    background-color: #CDC3E6;
+    transition: all 0.2s ease-in-out;
+}
